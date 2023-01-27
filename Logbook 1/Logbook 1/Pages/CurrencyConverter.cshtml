@@ -1,0 +1,20 @@
+﻿@page
+@model CurrencyConverter
+
+@{
+    ViewData["Title"] = "Currency Converter";
+}
+
+<div class="text-center">
+
+    <p>
+        Convert from GBP to Euros:
+    </p>
+    
+    <form method="POST">
+        <div>Convert <input asp-for="InputCurrency"/> GBP to Euros</div>
+        <input style="margin-top: 15px" type="submit"/>
+    </form>
+    
+    <div style="margin-top: 15px" id="result">Result: @Model.OutputCurrency</div>
+</div>

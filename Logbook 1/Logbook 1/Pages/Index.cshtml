@@ -5,14 +5,18 @@
 }
 
 <div class="text-center">
+    
+    <p>
+        Enter your name:
+    </p>
 
     <div asp-validation-summary="All">
-        
+
     </div>
     <form method="POST">
         <div>Name: <input asp-for="Name"/></div>
-        <input type="submit"/>
+        <input style="margin-top: 15px" type="submit"/>
     </form>
-    
-    <div id="result">@Model.Name</div>
+
+    <div id="result" style="margin-top: 15px">Result: @Model.Name</div>
 </div>
