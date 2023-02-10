@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logbook 1", "Logbook 1\Logb
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logbook 2", "Logbook 2\Logbook 2.csproj", "{41F04070-079D-4861-BA28-ACCD5A3088B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logbook 3", "Logbook 3\Logbook 3.csproj", "{B7AC06D5-CC66-4261-9475-036B79E44C47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{41F04070-079D-4861-BA28-ACCD5A3088B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41F04070-079D-4861-BA28-ACCD5A3088B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41F04070-079D-4861-BA28-ACCD5A3088B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7AC06D5-CC66-4261-9475-036B79E44C47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7AC06D5-CC66-4261-9475-036B79E44C47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7AC06D5-CC66-4261-9475-036B79E44C47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7AC06D5-CC66-4261-9475-036B79E44C47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
