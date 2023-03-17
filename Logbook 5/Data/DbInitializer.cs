@@ -8,8 +8,6 @@ public static class DbInitializer
 {
     public static void Initialize(SchoolContext context)
     {
-        context.Database.EnsureCreated();
-
         if (context.Students.Any())
             return;
 
